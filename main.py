@@ -8,7 +8,10 @@ import sys
 
 def take_ss():
     
-    ss = ImageGrab.grab(bbox=(231,258,1065,362))
+    ss = ImageGrab.grab(bbox=(x1,y1,x2,y2))
+    
+    # x1,y1,x2,y2 are the cordinates of the white text box
+    
     return ss
 
 def get_text():
